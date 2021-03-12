@@ -1,3 +1,1 @@
-module.exports = function getBracket() {
-    return {}
-}
+module.exports = require("./dist");
