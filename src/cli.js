@@ -12,7 +12,7 @@ const execute = async () => {
 		boolean: true,
 	}).argv;
 	console.log(
-		util.inspect(await getBracket({ women: argv.w }), false, null, true)
+		JSON.stringify(await getBracket({ women: argv.w }))
 	);
 };
 
