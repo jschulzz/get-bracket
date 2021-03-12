@@ -1,0 +1,15 @@
+{
+	"name": "get-bracket",
+	"version": "1.0.0",
+	"description": "gets the latest ESPN bracketology bracket into a JSON format",
+	"main": "index.js",
+    "author": "John Schulz",
+    "repository": "jschulzz/get-bracket",
+	"license": "MIT",
+	"keywords": [
+		"npm",
+		"package",
+		"bracket",
+		"bracketology"
+	]
+}
