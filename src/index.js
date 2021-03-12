@@ -20,7 +20,7 @@ const getBracket = async ({women} = {women: false}) => {
 				const teamName = $(team).find(".bracket__link").text();
 				const playIn = teamName.includes("/");
 				teams.push({
-					...(playIn && { playInTeams: [teamName.split("/")] }),
+					...(playIn && { playInTeams: teamName.split("/") }),
 					seed,
 					...(!playIn && { team: teamName }),
 					playIn,
